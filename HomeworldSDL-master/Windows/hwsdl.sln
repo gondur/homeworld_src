@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwsdl", "prj\hwsdl.vcproj", "{81CB51C4-B434-4E12-B69B-BAEE102F2852}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release (test) = Release (test)
+		release+symbols = release+symbols
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug.ActiveCfg = Debug|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug.Build.0 = Debug|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test).ActiveCfg = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test).Build.0 = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols.ActiveCfg = release + symbols|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols.Build.0 = release + symbols|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

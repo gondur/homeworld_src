@@ -1,0 +1,51 @@
+Homeworld SDL has a number of feature enhancements over the original Homeworld
+and are described below:
+
+
+--------------------------------------------------------------------------------
+Hardware support
+--------------------------------------------------------------------------------
+
+- Supports resolutions larger than 1600x1200.
+
+- Supports widescreen resolutions.
+
+- 3D CAD joystick controller support.
+
+
+--------------------------------------------------------------------------------
+Game features
+--------------------------------------------------------------------------------
+
+Homeworld.cfg includes a section for Homeworld SDL configuration options
+labelled:
+
+    [New HWSDL Options]
+
+This section can have the following options and are shown with their default
+value:
+
+CollectResourcesAtEndOfMission    FALSE
+
+    Once you have completed the objectives for a level, any remaining resources
+    will automatically be harvested once you issue the hyperspace order to your
+    fleet. However, harvesting will only occur if you have at least one
+    harvester and have eliminated all offensive enemy vessels, otherwise the
+    resources will be left behind when you leave/flee.
+
+ShipsAlwaysUseOwnerColors    FALSE
+
+    In the original game, captured ships retained the colour scheme of the
+    player who originally built it. This adds a certain degree of competitiveness
+    since a player's success at stealing his opponent's ships is visually
+    apparent. However, it also makes battles more confusing to command when ships
+    on opposing sides nevertheless have the same colour scheme. This option
+    allows you to specify whether captured vessels should be repainted with their
+    new owner's colour scheme.
+
+TimeCompressionFactor    8
+
+    You can speed the game up in order to travel across large maps quickly or
+    when you are waiting for something to complete (build/research etc). The
+    default value is the same as in Homeworld Cataclysm (8 times faster). You
+    can toggle the game's speed with the '\' key.
